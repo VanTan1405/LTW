@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f8f5f0;
+  color: #0d3030;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #8ac5c5;
+  padding: 1rem 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex; /* Sử dụng flexbox cho logo và chữ */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.logo-img {
+  height: 50px; /* Chiều cao của logo */
+  margin-right: 10px; /* Khoảng cách giữa logo và chữ */
+}
+
+.logo {
+  font-size: 24px; /* Kích thước chữ */
+  color: #333; /* Màu chữ */
+}
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Banner */
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 17rem 2rem;
+  overflow: hidden;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.cta-button {
+  background-color: #8ac5c5;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #4e342e;
+}
+.about-image {
+  width: 100%; /* Chiều rộng ảnh 100% của container */
+  height: auto; /* Giữ tỷ lệ khung hình */
+  margin-top: 20px; /* Khoảng cách phía trên ảnh */
+}
+/* About & Features */
+.about, .features, .products, .order {
+  padding: 4rem 1rem;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.feature-item {
+  flex: 1 1 250px;
+  background: #f3ede7;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Products */
+.product-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.product-item {
+  text-align: center;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Order Form */
+form {
+  display: grid;
+  gap: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+form input, form select, form button {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #8ac5c5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #4e342e;
+}
+
+/* Footer */
+footer {
+  background-color: #8ac5c5;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-menu {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+
+  .features-list {
+      flex-direction: column;
+  }
+}
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+header {
+  background-color: #f7e6f7;
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}

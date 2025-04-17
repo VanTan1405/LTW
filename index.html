@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lustra - Vẻ đẹp tự nhiên+ </title>
+  <link rel="stylesheet" href="hoanthanh.css" />
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo-container">
+        <img src="hi.jpg" alt="Logo" class="logo-img" />
+        <h1 class="logo">Lustra</h1>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home">Trang chủ</a></li>
+        <li><a href="#about">Giới thiệu</a></li>
+        <li><a href="#features">Lợi ích</a></li>
+        <li><a href="#products">Sản phẩm</a></li>
+        <li><a href="#order">Đặt hàng</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Banner -->
+  <header class="hero" id="home">
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="lUstra (1).mp4.crdownload" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="container">
+      <h2>Tự tin tỏa sáng với vẻ đẹp tự nhiên từ Lustra</h2>
+      <p>Luôn là lựa chọn hoàn hảo của bạn</p>
+      <a href="#order" class="cta-button">Mua sắm ngay</a>
+    </div>
+  </header>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+        <h2>Website của Lustra</h2>
+        <p>Lustra – Vẻ đẹp từ thiên nhiên</p>
+        <p class="lead">
+            Lustra mang đến một bộ sưu tập mỹ phẩm cao cấp được chiết xuất từ thiên nhiên, giúp chăm sóc và làm đẹp làn da một cách an toàn và hiệu quả. Sản phẩm của chúng tôi không chỉ giúp duy trì vẻ đẹp tự nhiên mà còn nâng cao sự tự tin cho khách hàng. Với cam kết sử dụng nguyên liệu từ thiên nhiên, Lustra hướng đến việc mang lại một vẻ đẹp khỏe mạnh, bền vững.
+        </p>
+        <img src="2.jpg" alt="Mô tả ảnh" class="about-image" />
+    </div>
+</section>
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2>Lợi ích và điểm nổi bật</h2>
+      <div class="features-list">
+        <div class="feature-item">
+          <div class="feature-item">
+            <h3>Chất lượng cao, an toàn tuyệt đối</h3>
+            <ul>
+              <li>Sản phẩm được chiết xuất từ thành phần thiên nhiên</li>
+              <li>Không chứa hóa chất độc hại</li>
+            </ul>
+          </div>          
+        </div>
+        <div class="feature-item">
+          <div class="feature-item">
+            <h3>Đa dạng sản phẩm</h3>
+            <ul>
+              <li>Các dòng sản phẩm chăm sóc da</li>
+              <li>Trang điểm</li>
+              <li>Dưỡng tóc</li>
+              <li>Phù hợp với mọi loại da</li>
+            </ul>
+          </div>          
+        </div>
+        <div class="feature-item">
+          <div class="feature-item">
+            <h3>Phù hợp với mọi đối tượng</h3>
+            <ul>
+              <li>Thích hợp cho cả nam và nữ</li>
+              <li>Phù hợp với làn da nhạy cảm</li>
+              <li>Phù hợp với da dầu</li>
+              <li>Phù hợp với da khô</li>
+            </ul>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products" id="products">
+    <div class="container">
+      <h2>Sản Phẩm Nổi Bật</h2>
+      <div class="product-gallery">
+        <div class="product-item">
+          <img src="kem chống nắng.webp" alt="Kem chống nắng" />
+          <h3>Kem chống nắng</h3>
+          <p>Giá: 398,000 VND</p>
+          <a href="#order" class="cta-button">Mua ngay</a>
+        </div>
+        <div class="product-item">
+          <img src="nuoc_tay_trang_bioderma_sensibio_h2o_500ml_8a0699dd3dc64ea0b1c5d7bf67bfa38c_1024x1024.webp" alt="Nước tẩy trang" />
+          <h3>Nước tẩy trang</h3>
+          <p>Giá: 190,000 VND</p>
+          <a href="#order" class="cta-button">Mua ngay</a>
+        </div>
+        <div class="product-item">
+          <img src="6002.jpg" alt="Sữa rửa mặt" />
+          <h3>Sữa rửa mặt</h3>
+          <p>Giá: 210,000 VND</p>
+          <a href="#order" class="cta-button">Mua ngay</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Order Form -->
+<section class="order" id="order">
+    <div class="container">
+      <h2>Đặt Hàng Ngay</h2>
+      <form id="orderForm">
+        <input type="text" id="name" name="name" placeholder="Họ tên" required />
+        <input type="email" id="email" name="email" placeholder="Email" required />
+        <input type="tel" id="phone" name="phone" placeholder="Số điện thoại" pattern="[0-9]{10}" required />
+        <button type="submit">Đặt hàng ngay</button>
+      </form>
+    </div>
+  </section>
+  
+  <script>
+    document.getElementById("orderForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+  
+      // Lấy dữ liệu từ form
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var phone = document.getElementById("phone").value;
+  
+      var data = {
+        name: name,
+        email: email,
+        phone: phone
+      };
+  
+      // Gửi dữ liệu đến Google Apps Script
+      fetch("https://script.google.com/macros/s/AKfycbzE6RIz0WmqIwb-D2A05kiuZn6aMUI9uSbox_7uCDwUUNo4Sk4Gxxr6SIlX-kcaIatLgg/exec", {
+        method: "POST",
+        mode: "no-cors",
+        body: JSON.stringify(data),
+        headers: {
+          "Content-Type": "application/json"
+        }
+      })
+      .then(() => {
+        alert("Thông tin đã được gửi!");
+        document.getElementById("orderForm").reset();
+      })
+      .catch(error => {
+        console.error("Lỗi:", error);
+        alert("Có lỗi xảy ra, vui lòng thử lại.");
+      });
+    });
+   
+  </script>
+  <!-- Footer -->
+  <footer>
+       <!-- Mở tab mới đến trang muahang-->
+       <link rel="stylesheet" href="muaban.html" />
+       | <a href="muaban.html" target="_blank">Điều kiện mua bán</a>
+         <!-- Mở tab mới đến trang FAQ -->
+         <link rel="stylesheet" href="faq.css" />
+         | <a href="faq.html" target="_blank">Câu hỏi thường gặp</a>
+     <!-- Mở tab mới đến trang câu tl -->
+     <link rel="stylesheet" href="câu tl.html" />
+     | <a href="câu tl.html" target="_blank">Chính sách giao hàng</a>
+     <br>
+     <br>
+      <!-- Mở tab mới đến trang hoàntien -->
+      <link rel="stylesheet" href="hoàntien.html" />
+      | <a href="hoàntien.html" target="_blank">Chính sách trả hàng - hoàn tiền</a>
+      <!-- Mở tab mới đến trang cauhoi-->
+      <link rel="stylesheet" href="baomat.html" />
+      | <a href="baomat.html" target="_blank">Chính sách bảo mật</a>
+      <br>
+      <br>
+      <br>
+      <br>
+<hr />
+      <div class="container">
+        <p>© 2025 Lustra – Bản quyền thuộc về công ty TNHH Lustra.</p>
+        <p>📞 034.517.6322 | 📧 contact@lustra.vn</p>
+  </nav>
+     
+    </div>
+  </footer>
+  <nav>
+   
+  
+  <!-- Form Validation -->
+  <script>
+    document.getElementById('orderForm').addEventListener('submit', function(e) {
+      const email = this.email.value;
+      const phone = this.phone.value;
+      if (!email.includes('@') || phone.length !== 10) {
+        alert("Vui lòng nhập đúng định dạng Email và SĐT.");
+        e.preventDefault();
+      }
+    });
+  </script>
+
+</body>
+</html>
